@@ -1,0 +1,156 @@
+::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+    height: 150px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.App {
+    height: 100vh;
+    width: 100vw;
+}
+body {
+    background-image: url('./images/bg.webp');
+}
+.statusBar {
+    display: flex;
+    justify-content: space-between;
+    width: 17%;
+}
+.elonMusk {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    transform: translateY(20%);
+}
+.circle {
+    background-color: rgba(220, 220, 220, 0.4);
+    height: 25px;
+    border-radius: 50%;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    transform: translateY(30%);
+}
+.webcam {
+    margin-left: 0.4px;
+    margin-top: 55px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.cameraBottom {
+    width: 100%;
+    height: 10%;
+
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    padding: 10px;
+}
+.takePic {
+    border: 4px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-100%);
+    cursor: pointer;
+}
+.savedImage {
+    border: 2px solid white;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+.closeCamera {
+    position: absolute;
+    top: 15%;
+    left: 15px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+.gallery {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.galleryHeader {
+    height: 50px;
+    width: 100%;
+
+    border-radius: 30px;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-body {
+    width: 100%;
+    height: 762px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
+    overflow-y: scroll;
+}
+.image-wrapper {
+    height: 127.211px;
+}
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.gallery-body::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+.presets::-webkit-scrollbar {
+    height: 3px;
+    background: transparent;
+}
+
+.presets::-webkit-scrollbar-thumb {
+    background: red;
+    height: 3px;
+}
+.ChatText {
+    font-size: 50px;
+    font-weight: 500;
+}
+.ActiveStatus-Name {
+    transform: translateY(23%);
+    width: 100%;
+    margin-left: 20px;
+}
