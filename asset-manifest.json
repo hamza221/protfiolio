@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/protfiolio/static/css/main.925ac8a9.chunk.css",
+    "main.js": "/protfiolio/static/js/main.84c75a93.chunk.js",
+    "main.js.map": "/protfiolio/static/js/main.84c75a93.chunk.js.map",
+    "runtime-main.js": "/protfiolio/static/js/runtime-main.39d97048.js",
+    "runtime-main.js.map": "/protfiolio/static/js/runtime-main.39d97048.js.map",
+    "static/js/2.08cfedf3.chunk.js": "/protfiolio/static/js/2.08cfedf3.chunk.js",
+    "static/js/2.08cfedf3.chunk.js.map": "/protfiolio/static/js/2.08cfedf3.chunk.js.map",
+    "static/js/3.26ce1008.chunk.js": "/protfiolio/static/js/3.26ce1008.chunk.js",
+    "static/js/3.26ce1008.chunk.js.map": "/protfiolio/static/js/3.26ce1008.chunk.js.map",
+    "index.html": "/protfiolio/index.html",
+    "static/css/main.925ac8a9.chunk.css.map": "/protfiolio/static/css/main.925ac8a9.chunk.css.map",
+    "static/js/2.08cfedf3.chunk.js.LICENSE.txt": "/protfiolio/static/js/2.08cfedf3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/protfiolio/static/media/bg.fb79d9e3.webp",
+    "static/media/elon.ffa5862d.png": "/protfiolio/static/media/elon.ffa5862d.png",
+    "static/media/elte.e3d9d8d2.jpg": "/protfiolio/static/media/elte.e3d9d8d2.jpg",
+    "static/media/me.b881fe7d.jpg": "/protfiolio/static/media/me.b881fe7d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39d97048.js",
+    "static/js/2.08cfedf3.chunk.js",
+    "static/css/main.925ac8a9.chunk.css",
+    "static/js/main.84c75a93.chunk.js"
+  ]
+}
