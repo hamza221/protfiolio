@@ -15,7 +15,7 @@ import LinkedIn from './pages/LinkedIn'
 import Github from './pages/Github'
 import Cv from './pages/Cv'
 import Elte from './pages/Elte'
-import { v4 as uuid } from 'uuid' // yarn add uuid , npm install uuid
+import { v4 as uuid } from 'uuid'
 
 function App() {
     const [img, setImg] = React.useState([])
