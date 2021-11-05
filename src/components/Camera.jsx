@@ -17,7 +17,7 @@ export default function Camera(props) {
         const imageSrc = webcamRef.current.getScreenshot()
         props.setprev(true)
         props.setImg((prev) => [...prev, imageSrc])
-    }, [webcamRef])
+    }, [webcamRef,props])
     return (
         <>
             <Webcam
